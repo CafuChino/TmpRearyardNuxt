@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TipTapEditor />
+    <TipTapWorkEditor />
   </div>
 </template>
 

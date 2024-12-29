@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "infisical run -- nuxt dev",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -16,6 +16,8 @@
     "@nuxtjs/supabase": "1.4.5",
     "@nuxtjs/tailwindcss": "6.12.2",
     "@radix-icons/vue": "^1.0.0",
+    "@tiptap/extension-document": "^2.10.4",
+    "@tiptap/extension-placeholder": "^2.10.4",
     "@tiptap/pm": "^3.0.0",
     "@tiptap/starter-kit": "^3.0.0",
     "@tiptap/vue-3": "^3.0.0",
@@ -33,8 +35,8 @@
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@infisical/cli": "^0.32.0",
     "@nuxtjs/stylelint-module": "^5.2.0",
+    "sass-embedded": "^1.83.0",
     "stylelint": "^16.12.0",
     "supabase": ">=1.8.1",
     "typescript": "^5.7.2"
